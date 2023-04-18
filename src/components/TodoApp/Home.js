@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div>
         <div className='container homeTodo '>
-            <h1 className='text-center'>Todo App</h1>
+            <h1 className='text-center text-success'>Todo App</h1>
         <Todos todos={dummyTodos} />
         </div>
         

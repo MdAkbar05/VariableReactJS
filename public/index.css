@@ -71,7 +71,8 @@ form .success{
 /* Todo Styling CSS  */
 
 .homeTodo{
-    background-color: #d6d1f5 ;
+    /* background-color: #d6d1f5 ; */
+    background-color: #746f94 ;
     padding: 20px;
 }
 .homeTodo h1{

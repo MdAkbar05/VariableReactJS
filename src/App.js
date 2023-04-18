@@ -6,7 +6,7 @@ import ThreeD_Card from "./components/ThreeD_Card";
 import FormControler from "./components/FormControler";
 import Home from "./components/TodoApp/Home";
 import CV from "./components/CV";
-import Todo from "./components/TodoApp/Todo";
+
 
 
 function App() {
