@@ -5,7 +5,7 @@ import Todo from './Todo'
 const Todos = (props) => {
     
   return (
-    <section className='todoSection'>
+    <section className='todoSection px-3'>
          
         {
            

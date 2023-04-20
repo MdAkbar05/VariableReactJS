@@ -28,7 +28,7 @@ const NewTodo = (props) => {
             <label htmlFor='desc' className='form-label'>Description: </label>
             <textarea className='form-control' type="text" id='desc' name='desc' value={desc} onChange={handleChange} />
         </div>
-        <button className='btn btn-outline-info' type='submit'>Add Todo</button>
+        <button className='btn btn-outline-info ' type='submit'>Add Todo</button>
     </form>
   )
 }
