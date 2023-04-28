@@ -14,14 +14,14 @@ function App() {
 
       <Header />
       <Home />
-    
-      <CV />
+
+      {/* <CV /> */}
 
       <FormControler />
 
       <QuizApp />
 
-      <BMICalculator /> 
+      <BMICalculator />
 
     </div>
   );

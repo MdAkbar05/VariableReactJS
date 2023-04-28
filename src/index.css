@@ -5,7 +5,7 @@
     
 }
 body{
-    background-color: #d6d5d5;
+    background-color: #FDE2F3;
 }
 
 .QuizApp{
@@ -14,18 +14,21 @@ body{
 }
 
 .QuizApp .question-card{
-    width: 70%;
+    width: 75%;
     height: auto;
     margin: 40px auto;
     border-radius: 10px;
     padding: 10px;
-    background-color: white;
+    background-color: #2A2F4F;
+    color: white;
     box-shadow:  0px 0px 5px rgb(0,0,0.4);
     border: 1px solid white;
 
 }
 .QuizApp .question-card ul{
     list-style: none;
+    margin: 0;
+    padding: 20px 10px;
 }
 .QuizApp .question-card ul li{
     color: white;
@@ -52,12 +55,13 @@ body{
 }
 
 .BMI{
-    width: 70%;
+    width: 75%;
     height: auto;
     margin: 40px auto;
     border-radius: 10px;
     padding: 10px;
-    background-color: white;
+    background-color: #2A2F4F;
+    color: white;
     box-shadow:  2px 3px 10px rgb(0,0,0.4);
     border: 1px solid white;
 }
@@ -71,7 +75,7 @@ form .success{
 /* Todo Styling CSS  */
 
 .homeTodo{
-    background-color: #161133;
+    background-color: #2A2F4F;
     height: 100vh;
     padding: 20px;
     display: flex;
@@ -83,7 +87,7 @@ form .success{
     color: #ffffff;
 }
 .homeTodo .todoSection{
-    background-color: #d6d1f5 ;
+   background-color: #E5BEEC; 
    border-radius: 10px;
    
    color: #fff;
@@ -109,7 +113,7 @@ form .success{
 
 /* add todo  */
 .form{
-    background-color: #2c226f89;
+    background-color: #E5BEEC;
     
     padding: .6rem;
     border-radius: .6rem;
@@ -124,11 +128,18 @@ form .success{
 }
 .form .form-field label{
     flex-basis: 20%;
+    color: black;
+    font-size:18px;
+    font-weight: 500;
 }
 .form .form-field input{
     flex-basis: 80%;
+    background-color: #2A2F4F;
+    color: white;
 }
 .form .form-field textarea{
+    background-color: #2A2F4F;
+    color: white;
     flex-basis: 80%;
     height: 20px;
     resize: none;
