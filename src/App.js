@@ -2,7 +2,6 @@ import React from "react";
 import Header from "./components/Header";
 import QuizApp from "./components/QuizApp";
 import BMICalculator from "./components/BMICalculator";
-import ThreeD_Card from "./components/ThreeD_Card";
 import FormControler from "./components/FormControler";
 import Home from "./components/TodoApp/Home";
 import CV from "./components/CV";
@@ -16,17 +15,14 @@ function App() {
       <Header />
       <Home />
     
-      {/* <CV /> */}
+      <CV />
 
-      {/* <FormControler />
+      <FormControler />
 
       <QuizApp />
 
-      <BMICalculator /> */}
+      <BMICalculator /> 
 
-      {/* <Home /> */}
-
-      {/* <ThreeD_Card /> */}
     </div>
   );
 }

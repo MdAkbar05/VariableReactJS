@@ -21,12 +21,20 @@ const Home = () => {
             return filteredTodos;
         })
     }
+
+    const handleEditTodo = (id)=>{
+        
+        setTodos((prevTodos)=>{
+            const filteredTodos = todos.filter((todo)=> todo.id !==id)
+            return filteredTodos;
+        })
+    }
   return (
     <div>
         <div className='container homeTodo '>
             <h1 className='text-center '>Todo App</h1>
             <NewTodo onAddTodo={handleAddTodo} />
-        <Todos todos={todos} onRemoveTodo={handleRemoveTodo} />
+        <Todos todos={todos} onRemoveTodo={handleRemoveTodo} onEditTodo={handleEditTodo} />
         </div>
         
     </div>

@@ -5,9 +5,12 @@ const Todo = (props) => {
   const {id} = props;
     
     
-    const handleClick = (id)=>{
+    const handleRemove = (id)=>{
       
       props.onRemoveTodo(id)
+    }
+    const handleEdit = (id)=>{
+      props.onEditTodo(id)
     }
   return (
     <article className='content p-3'>
@@ -18,8 +21,11 @@ const Todo = (props) => {
             <p>{desc}</p>
         </div>
         <div>
-          <button className='btn' onClick={()=>{handleClick(id)}}>
+          <button className='btn' onClick={()=>{handleRemove(id)}}>
           <i className='fa fa-trash fa-2x text-danger'></i>
+          </button><br/>
+          <button className='btn' onClick={()=>{handleEdit(id)}}>
+          <i className='fa fa-edit fa-2x text-info'></i>
           </button>
         </div>
     </article>

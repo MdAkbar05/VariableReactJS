@@ -5,13 +5,13 @@ function BMICalculator() {
     
     const [weight,setWeight] = useState();
     const [height,setHeight] = useState();
-    const [bmi,setBmi] = useState('');
-    const [message,setMessage] = useState(0);
+    const [bmi,setBmi] = useState();
+    const [message,setMessage] = useState("Lets Check by Given Your Information");
 
     let calculateBMI = (e) => {
         e.preventDefault();
         if(weight=== 0 || height===0){
-            alert("Invalid Input")
+            setMessage("Give a valid Input")
         }
         else{
             let bmi = (weight/(height/100)**2)
@@ -30,10 +30,13 @@ function BMICalculator() {
             }
         }
     }
-
-    let reload = ()=>{
-       window.location.reload();
+    const reload = ()=>{
+        setMessage("Lets Check by Given Your Information");
+        setBmi(0);
+        setHeight("");
+        setWeight("");
     }
+
     
   return (
     <div className='BMI'>
