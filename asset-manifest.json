@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/VariableReactJS/static/css/main.a1067fdf.css",
-    "main.js": "/VariableReactJS/static/js/main.c710e0a1.js",
+    "main.js": "/VariableReactJS/static/js/main.b7a42a10.js",
     "index.html": "/VariableReactJS/index.html",
     "main.a1067fdf.css.map": "/VariableReactJS/static/css/main.a1067fdf.css.map",
-    "main.c710e0a1.js.map": "/VariableReactJS/static/js/main.c710e0a1.js.map"
+    "main.b7a42a10.js.map": "/VariableReactJS/static/js/main.b7a42a10.js.map"
   },
   "entrypoints": [
     "static/css/main.a1067fdf.css",
-    "static/js/main.c710e0a1.js"
+    "static/js/main.b7a42a10.js"
   ]
 }
