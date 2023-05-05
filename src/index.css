@@ -92,6 +92,7 @@ form .success{
 }
 .addUser{
     transition: 1s all;
+    padding: 20px;
 }
 .homeTodo h1{
     color: #ffffff;

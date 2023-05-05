@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Suspense fallback={<h2>Loading Data...</h2>}>
+      {/* <Suspense fallback={<h2>Loading Data...</h2>}>
         <Quotes />
-      </Suspense>
+      </Suspense> */}
       <Student />
       <Home />
 

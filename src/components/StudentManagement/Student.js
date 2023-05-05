@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NewTodo from "../TodoApp/NewTodo";
 
 const Student = () => {
-  const [student, setStudent] = useState(true);
+  const [student, setStudent] = useState(false);
 
   function crossFunction() {
     setStudent(false);
@@ -25,7 +25,7 @@ const Student = () => {
                 onClick={crossFunction}
               ></i>
             </span>
-            <NewTodo />
+            <NewTodo title="Username" email="Email" btnName="Add User" />
           </div>
         </div>
       );
