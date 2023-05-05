@@ -16,7 +16,7 @@ function App() {
         <Quotes />
       </Suspense>
       <Student />
-      {/* <Home /> */}
+      <Home />
 
       {/* <CV /> */}
 
