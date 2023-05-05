@@ -30,7 +30,7 @@ function FormControler() {
     console.log(userInfo);
   };
   return (
-    <div className="container mt-3">
+    <div className="container mt-3 formControl">
       <form
         className="border bg-dark text-light  border-success p-2"
         onSubmit={handleFormSubmit}

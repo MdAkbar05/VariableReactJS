@@ -22,7 +22,7 @@ const NewTodo = (props) => {
     <form className="form" onSubmit={handleSubmit}>
       <div className="form-field mb-3">
         <label htmlFor="title" className="form-label">
-          Title:{" "}
+          UserName:{" "}
         </label>
         <input
           type="text"
@@ -35,7 +35,7 @@ const NewTodo = (props) => {
       </div>
       <div className="form-field">
         <label htmlFor="desc" className="form-label">
-          Description:{" "}
+          Email:{" "}
         </label>
         <textarea
           className="form-control"
@@ -47,7 +47,7 @@ const NewTodo = (props) => {
         />
       </div>
       <button className="btn btn-outline-success " type="submit">
-        Add Todo
+        Add User
       </button>
     </form>
   );

@@ -8,6 +8,10 @@ body{
     background-color: #FDE2F3;
 }
 
+.formControl{
+    width: 75%;
+    padding: 0;
+}
 .QuizApp{
     text-align: center;
     margin-top: 40px;
@@ -75,6 +79,7 @@ form .success{
 /* Todo Styling CSS  */
 
 .homeTodo{
+    width:75%;
     background-color: #2A2F4F;
     height: 100vh;
     padding: 20px;
@@ -82,16 +87,30 @@ form .success{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    transition: all 0.5s;
+}
+.addUser{
+    transition: 1s all;
 }
 .homeTodo h1{
     color: #ffffff;
+}
+.homeTodo span i{
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    float: right;
+    color: #fff;
+    padding: 10px;
 }
 .homeTodo .todoSection{
    background-color: #E5BEEC; 
    border-radius: 10px;
    
    color: #fff;
-    width:85%;
+    width:75%;
     height: auto;
     max-height: 60vh;
     overflow-y: scroll;
